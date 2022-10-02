@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.znotagain.mathgame">
+    package="com.madcode.mathgame">
 
     <application
         android:allowBackup="true"
@@ -13,19 +13,19 @@
         android:supportsRtl="true"
         tools:targetApi="31">
         <activity
-            android:name=".ResultActivity"
+            android:name="com.madcode.mathgame.ResultActivity"
             android:exported="false"
             android:theme="@style/Theme.ResultGame"
             android:label="Results"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName="com.madcode.mathgame.MainActivity" />
         <activity
-            android:name=".GameActivity"
+            android:name="com.madcode.mathgame.GameActivity"
             android:exported="false"
             android:label="Addition"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="com.madcode.mathgame.MainActivity"
             android:theme="@style/Theme.GamePage" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.madcode.mathgame.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.MathGame">
             <intent-filter>

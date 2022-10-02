@@ -1,4 +1,4 @@
-package com.znotagain.mathgame
+package com.madcode.mathgame
 
 import org.junit.Test
 

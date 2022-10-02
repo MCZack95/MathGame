@@ -1,4 +1,4 @@
-package com.znotagain.mathgame
+package com.madcode.mathgame
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

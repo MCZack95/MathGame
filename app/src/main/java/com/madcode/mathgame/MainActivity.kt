@@ -1,4 +1,4 @@
-package com.znotagain.mathgame
+package com.madcode.mathgame
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
