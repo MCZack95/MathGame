@@ -57,6 +57,12 @@ class GameActivity : AppCompatActivity() {
         time.text = (max_time / 1000).toInt().toString()
 
         val opCode = intent.getStringExtra("opcode").toString()
+        when (opCode) {
+            "+" -> supportActionBar!!.title = "Addition"
+            "-" -> supportActionBar!!.title = "Subtraction"
+            "*" -> supportActionBar!!.title = "Multiplication"
+        }
+
         gameContinue(opCode)
 
         okBtn.setOnClickListener {
